@@ -6,13 +6,22 @@
     <description>Sparkle update feed for EQen.</description>
     <language>en</language>
     <item>
-      <title>EQen 1.10.0</title>
-      <pubDate>Wed, 22 Apr 2026 23:21:31 +0000</pubDate>
-      <sparkle:version>EQen.18</sparkle:version>
-      <sparkle:shortVersionString>1.10.0</sparkle:shortVersionString>
+      <title>EQen 1.10.1</title>
+      <pubDate>Wed, 22 Apr 2026 23:37:29 +0000</pubDate>
+      <sparkle:version>EQen.19</sparkle:version>
+      <sparkle:shortVersionString>1.10.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[Three new processors complete the EasyEffects parity: Bass Enhancer (psychoacoustic harmonic synthesis below your chosen freq), Crystalizer (treble exciter via differentiator + soft-clip), and algorithmic stereo Reverb (Schroeder/Freeverb topology with comb + allpass filters, decay/damping/width/pre-delay controls). EasyEffects import now fully maps every standard module — no more 'limitations' section in the dialog.]]></description>
-      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.10.0/EQen-1.10.0.dmg" sparkle:edSignature="7LFz3frlmwCrxnd41abwHl9bH0+UlJ2v6YOfVnWWhf4wqqg5f/qfr2PF4nQ94dODV6RnQmXEcV8ZA1SWayvDBg==" length="3754863" type="application/octet-stream" />
+      <description><![CDATA[Meters card uses the same chevron-collapse pattern as the band strip — click the title to expand or collapse. Removed the X close button + the orphaned 'Show Meters' pill in the top bar.]]></description>
+      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.10.1/EQen-1.10.1.dmg" sparkle:edSignature="7QYvlISQ+gFp6rZptkul1L0F0eqFRZYpnrkfbGJdXgmDuV+9JeI/uGsPBUw/W+t3SJOfooaMAF1QbLa7nae2AA==" length="3740968" type="application/octet-stream" />
+    </item>
+    <item>
+    <title>EQen 1.10.0</title>
+    <pubDate>Wed, 22 Apr 2026 23:21:31 +0000</pubDate>
+    <sparkle:version>EQen.18</sparkle:version>
+    <sparkle:shortVersionString>1.10.0</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[Three new processors complete the EasyEffects parity: Bass Enhancer (psychoacoustic harmonic synthesis below your chosen freq), Crystalizer (treble exciter via differentiator + soft-clip), and algorithmic stereo Reverb (Schroeder/Freeverb topology with comb + allpass filters, decay/damping/width/pre-delay controls). EasyEffects import now fully maps every standard module — no more 'limitations' section in the dialog.]]></description>
+    <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.10.0/EQen-1.10.0.dmg" sparkle:edSignature="7LFz3frlmwCrxnd41abwHl9bH0+UlJ2v6YOfVnWWhf4wqqg5f/qfr2PF4nQ94dODV6RnQmXEcV8ZA1SWayvDBg==" length="3754863" type="application/octet-stream" />
     </item>
     <item>
     <title>EQen 1.9.7</title>
