@@ -2,6 +2,15 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <item>
+      <title>EQen 1.9.0</title>
+      <pubDate>Wed, 22 Apr 2026 20:43:39 +0000</pubDate>
+      <sparkle:version>1.9.0</sparkle:version>
+      <sparkle:shortVersionString>1.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[UI overhaul: new design system (dark-first with cyan accent), interactive EQ curve plot with draggable band dots as the main control surface, redesigned Effects window with category-coloured cards, polished menu bar popover, integrated top-bar chrome.]]></description>
+      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.0/EQen-1.9.0.dmg" sparkle:edSignature="ifBPUgmijmL1j1XiUeAScvEFaIC2fE4aZreHdpzk4Dn6z4m7wUCgp7JBOpRg7GEIo/3SMQnLcD567pnZ2i8TBg==" length="3635308" type="application/octet-stream" />
+    </item>
+    <item>
       <title>EQen 1.8.1</title>
       <pubDate>Wed, 22 Apr 2026 20:24:25 +0000</pubDate>
       <sparkle:version>1.8.1</sparkle:version>
