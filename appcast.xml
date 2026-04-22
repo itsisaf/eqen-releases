@@ -6,13 +6,22 @@
     <description>Sparkle update feed for EQen.</description>
     <language>en</language>
     <item>
-      <title>EQen 1.9.5</title>
-      <pubDate>Wed, 22 Apr 2026 22:32:20 +0000</pubDate>
-      <sparkle:version>EQen.15</sparkle:version>
-      <sparkle:shortVersionString>1.9.5</sparkle:shortVersionString>
+      <title>EQen 1.9.6</title>
+      <pubDate>Wed, 22 Apr 2026 22:48:44 +0000</pubDate>
+      <sparkle:version>EQen.16</sparkle:version>
+      <sparkle:shortVersionString>1.9.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[Spectrum Analyzer redesigned with the app theme: framed in a card, accent-coloured curve with a soft gradient fill under the live trace, cleaner grid with a brighter 0 dB line, status pill with sample rate, proper typography.]]></description>
-      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.5/EQen-1.9.5.dmg" sparkle:edSignature="862LCq7F1wbo7NypV7mdvM7boaFfjSwqifKZNmcc9CzTSfzfjNgXRl+jPLjpvvfD8SfJhUgSx+bVWQqIK0hQBg==" length="3662224" type="application/octet-stream" />
+      <description><![CDATA[Compact horizontal meter strip replaces the 4-column tower — ~3x less vertical space, with pause + hide toggles. EasyEffects import now pulls compressor and limiter settings, not just EQ bands; warning dialog rewritten to be honest about what actually doesn't map.]]></description>
+      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.6/EQen-1.9.6.dmg" sparkle:edSignature="iEyNwwezP2ET4IeALAYvLMq7Dl+qhzvdXYmC13TE5h+CFTzovIq/4eA84cFAF+0TLF3FmS2pcZCyLfU2g2k4AA==" length="3687575" type="application/octet-stream" />
+    </item>
+    <item>
+    <title>EQen 1.9.5</title>
+    <pubDate>Wed, 22 Apr 2026 22:32:20 +0000</pubDate>
+    <sparkle:version>EQen.15</sparkle:version>
+    <sparkle:shortVersionString>1.9.5</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[Spectrum Analyzer redesigned with the app theme: framed in a card, accent-coloured curve with a soft gradient fill under the live trace, cleaner grid with a brighter 0 dB line, status pill with sample rate, proper typography.]]></description>
+    <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.5/EQen-1.9.5.dmg" sparkle:edSignature="862LCq7F1wbo7NypV7mdvM7boaFfjSwqifKZNmcc9CzTSfzfjNgXRl+jPLjpvvfD8SfJhUgSx+bVWQqIK0hQBg==" length="3662224" type="application/octet-stream" />
     </item>
     <item>
     <title>EQen 1.9.4</title>
