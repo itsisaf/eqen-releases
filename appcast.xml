@@ -7,7 +7,7 @@
     <language>en</language>
     <item>
       <title>EQen 1.9.4</title>
-      <pubDate>Wed, 22 Apr 2026 22:22:09 +0000</pubDate>
+      <pubDate>Wed, 22 Apr 2026 22:23:25 +0000</pubDate>
       <sparkle:version>EQen.14</sparkle:version>
       <sparkle:shortVersionString>1.9.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -15,58 +15,49 @@
       <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.4/EQen-1.9.4.dmg" sparkle:edSignature="SIcWPfGH52nWSNFVCpluUzA6nzT06TBjVHofIqxea4dT9IsCDKOkuisEIqmgRrlB2eufDrZPjPgbPs6HkqUdAQ==" length="3652117" type="application/octet-stream" />
     </item>
     <item>
-          <title>EQen 1.9.4</title>
-          <pubDate>Wed, 22 Apr 2026 22:14:07 +0000</pubDate>
-          <sparkle:version>EQen.13</sparkle:version>
-          <sparkle:shortVersionString>1.9.4</sparkle:shortVersionString>
-          <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-          <description><![CDATA[Restored per-band background cards. Real fix: band strip parent card now gives the slider row the 260pt it intrinsically needs so slider columns don't extend past the card border.]]></description>
-          <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.4/EQen-1.9.4.dmg" sparkle:edSignature="5jjqMtSfNGIoZ50oczjsXYdE68BuOKSb/XxFQ6skGTKiyQM3VOZ175tjYofOkey0Y+6cZ6WkXvxWqSLwKBnkDQ==" length="3649873" type="application/octet-stream" />
-        </item>
+    <title>EQen 1.9.2</title>
+    <pubDate>Wed, 22 Apr 2026 21:50:37 +0000</pubDate>
+    <sparkle:version>EQen.12</sparkle:version>
+    <sparkle:shortVersionString>1.9.2</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[Respects system appearance (dark/light) instead of forcing dark. Band strip has a fixed height and can't overflow. Whole window scrolls when content is taller than the window — no more clipped sliders on shorter screens.]]></description>
+    <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.2/EQen-1.9.2.dmg" sparkle:edSignature="I0ORmsNtIAg+nSNbkmejx26+n2TOp3utjDdofOgxtgXz1ses6dgTVcXio2Z1+ziJB5E24Et105TO7tkMlOoXAQ==" length="3654724" type="application/octet-stream" />
+    </item>
     <item>
-                  <title>EQen 1.9.2</title>
-                  <pubDate>Wed, 22 Apr 2026 21:50:37 +0000</pubDate>
-                  <sparkle:version>EQen.12</sparkle:version>
-                  <sparkle:shortVersionString>1.9.2</sparkle:shortVersionString>
-                  <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-                  <description><![CDATA[Respects system appearance (dark/light) instead of forcing dark. Band strip has a fixed height and can't overflow. Whole window scrolls when content is taller than the window — no more clipped sliders on shorter screens.]]></description>
-                  <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.2/EQen-1.9.2.dmg" sparkle:edSignature="I0ORmsNtIAg+nSNbkmejx26+n2TOp3utjDdofOgxtgXz1ses6dgTVcXio2Z1+ziJB5E24Et105TO7tkMlOoXAQ==" length="3654724" type="application/octet-stream" />
-                </item>
+    <title>EQen 1.9.1</title>
+    <pubDate>Wed, 22 Apr 2026 21:34:55 +0000</pubDate>
+    <sparkle:version>EQen.11</sparkle:version>
+    <sparkle:shortVersionString>1.9.1</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[Layout fixes: segmented picker text no longer wraps, band strip now spans full width, UI uses dark mode by default (pro audio convention), reduced top chrome spacing. Band strip is collapsed by default since the EQ curve is the primary control surface.]]></description>
+    <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.1/EQen-1.9.1.dmg" sparkle:edSignature="5b7oev54Sd0VG+kQ4kkaZoQ7MynNItWLTbd44Y2eF+hmab4uomYSvLkzF7dPgXlmk2drdFlXTuRBXO8KwNwpCg==" length="3652502" type="application/octet-stream" />
+    </item>
     <item>
-                      <title>EQen 1.9.1</title>
-                      <pubDate>Wed, 22 Apr 2026 21:34:55 +0000</pubDate>
-                      <sparkle:version>EQen.11</sparkle:version>
-                      <sparkle:shortVersionString>1.9.1</sparkle:shortVersionString>
-                      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-                      <description><![CDATA[Layout fixes: segmented picker text no longer wraps, band strip now spans full width, UI uses dark mode by default (pro audio convention), reduced top chrome spacing. Band strip is collapsed by default since the EQ curve is the primary control surface.]]></description>
-                      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.1/EQen-1.9.1.dmg" sparkle:edSignature="5b7oev54Sd0VG+kQ4kkaZoQ7MynNItWLTbd44Y2eF+hmab4uomYSvLkzF7dPgXlmk2drdFlXTuRBXO8KwNwpCg==" length="3652502" type="application/octet-stream" />
-                    </item>
+    <title>EQen 1.9.0</title>
+    <pubDate>Wed, 22 Apr 2026 20:43:39 +0000</pubDate>
+    <sparkle:version>EQen.10</sparkle:version>
+    <sparkle:shortVersionString>1.9.0</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[UI overhaul: new design system (dark-first with cyan accent), interactive EQ curve plot with draggable band dots as the main control surface, redesigned Effects window with category-coloured cards, polished menu bar popover, integrated top-bar chrome.]]></description>
+    <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.0/EQen-1.9.0.dmg" sparkle:edSignature="ifBPUgmijmL1j1XiUeAScvEFaIC2fE4aZreHdpzk4Dn6z4m7wUCgp7JBOpRg7GEIo/3SMQnLcD567pnZ2i8TBg==" length="3635308" type="application/octet-stream" />
+    </item>
     <item>
-                          <title>EQen 1.9.0</title>
-                          <pubDate>Wed, 22 Apr 2026 20:43:39 +0000</pubDate>
-                          <sparkle:version>EQen.10</sparkle:version>
-                          <sparkle:shortVersionString>1.9.0</sparkle:shortVersionString>
-                          <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-                          <description><![CDATA[UI overhaul: new design system (dark-first with cyan accent), interactive EQ curve plot with draggable band dots as the main control surface, redesigned Effects window with category-coloured cards, polished menu bar popover, integrated top-bar chrome.]]></description>
-                          <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.0/EQen-1.9.0.dmg" sparkle:edSignature="ifBPUgmijmL1j1XiUeAScvEFaIC2fE4aZreHdpzk4Dn6z4m7wUCgp7JBOpRg7GEIo/3SMQnLcD567pnZ2i8TBg==" length="3635308" type="application/octet-stream" />
-                        </item>
+    <title>EQen 1.8.1</title>
+    <pubDate>Wed, 22 Apr 2026 20:24:25 +0000</pubDate>
+    <sparkle:version>EQen.9</sparkle:version>
+    <sparkle:shortVersionString>1.8.1</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[Fix: app failed to launch on v1.8.0 due to incorrect Sparkle framework rpath. Now dyld correctly finds Sparkle.framework in Contents/Frameworks/.]]></description>
+    <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.8.1/EQen-1.8.1.dmg" sparkle:edSignature="3S4EJ4fV/H1Ukjs2xwLo8TsJnPRNujZzzx0WOByRiMcJoxrK9O/8+jTSmiX0MJNQkesb2o11lIA6wrdiamxzAw==" length="3573186" type="application/octet-stream" />
+    </item>
     <item>
-                          <title>EQen 1.8.1</title>
-                          <pubDate>Wed, 22 Apr 2026 20:24:25 +0000</pubDate>
-                          <sparkle:version>EQen.9</sparkle:version>
-                          <sparkle:shortVersionString>1.8.1</sparkle:shortVersionString>
-                          <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-                          <description><![CDATA[Fix: app failed to launch on v1.8.0 due to incorrect Sparkle framework rpath. Now dyld correctly finds Sparkle.framework in Contents/Frameworks/.]]></description>
-                          <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.8.1/EQen-1.8.1.dmg" sparkle:edSignature="3S4EJ4fV/H1Ukjs2xwLo8TsJnPRNujZzzx0WOByRiMcJoxrK9O/8+jTSmiX0MJNQkesb2o11lIA6wrdiamxzAw==" length="3573186" type="application/octet-stream" />
-                        </item>
-    <item>
-                          <title>EQen 1.8.0</title>
-                          <pubDate>Wed, 22 Apr 2026 20:05:28 +0000</pubDate>
-                          <sparkle:version>EQen.6</sparkle:version>
-                          <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
-                          <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-                          <description><![CDATA[Per-app mute rules (Core Audio process taps), notarized + Sparkle auto-updater. First release through GitHub.]]></description>
-                          <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.8.0/EQen-1.8.0.dmg" sparkle:edSignature="L1yWSi8QJeYR5x3FTwOLonfbQLYgy01J/mx6ujusqgHpBPi20RTnP6pmOoKVxZCB7reT5FHcf25nMXe9oGvOBA==" length="3572957" type="application/octet-stream" />
-                        </item>
+    <title>EQen 1.8.0</title>
+    <pubDate>Wed, 22 Apr 2026 20:05:28 +0000</pubDate>
+    <sparkle:version>EQen.6</sparkle:version>
+    <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[Per-app mute rules (Core Audio process taps), notarized + Sparkle auto-updater. First release through GitHub.]]></description>
+    <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.8.0/EQen-1.8.0.dmg" sparkle:edSignature="L1yWSi8QJeYR5x3FTwOLonfbQLYgy01J/mx6ujusqgHpBPi20RTnP6pmOoKVxZCB7reT5FHcf25nMXe9oGvOBA==" length="3572957" type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
