@@ -6,13 +6,22 @@
     <description>Sparkle update feed for EQen.</description>
     <language>en</language>
     <item>
-      <title>EQen 1.9.6</title>
-      <pubDate>Wed, 22 Apr 2026 22:48:44 +0000</pubDate>
-      <sparkle:version>EQen.16</sparkle:version>
-      <sparkle:shortVersionString>1.9.6</sparkle:shortVersionString>
+      <title>EQen 1.9.7</title>
+      <pubDate>Wed, 22 Apr 2026 23:01:26 +0000</pubDate>
+      <sparkle:version>EQen.17</sparkle:version>
+      <sparkle:shortVersionString>1.9.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[Compact horizontal meter strip replaces the 4-column tower — ~3x less vertical space, with pause + hide toggles. EasyEffects import now pulls compressor and limiter settings, not just EQ bands; warning dialog rewritten to be honest about what actually doesn't map.]]></description>
-      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.6/EQen-1.9.6.dmg" sparkle:edSignature="iEyNwwezP2ET4IeALAYvLMq7Dl+qhzvdXYmC13TE5h+CFTzovIq/4eA84cFAF+0TLF3FmS2pcZCyLfU2g2k4AA==" length="3687575" type="application/octet-stream" />
+      <description><![CDATA[EasyEffects import: filter modes (RLC BT/MT, LRX, BWC, …) now silently accepted as RBJ — they're audibly equivalent. Filter slopes x2 / x3 / x4 for HP/LP now imported by cascading 2 / 3 / 4 biquads at the same frequency. Dialog rewritten to be honest about what we now do (almost everything) versus what genuinely needs new DSP modules (reverb, bass enhancer, crystalizer).]]></description>
+      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.7/EQen-1.9.7.dmg" sparkle:edSignature="s758Yx3jdRIlcaGMAMXX99QT6MFphrX+fYahJRLVUnp3MQIoa98h55drXfnqMhD1znOjwKXjO1JS9UOk95kaAA==" length="3689919" type="application/octet-stream" />
+    </item>
+    <item>
+    <title>EQen 1.9.6</title>
+    <pubDate>Wed, 22 Apr 2026 22:48:44 +0000</pubDate>
+    <sparkle:version>EQen.16</sparkle:version>
+    <sparkle:shortVersionString>1.9.6</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[Compact horizontal meter strip replaces the 4-column tower — ~3x less vertical space, with pause + hide toggles. EasyEffects import now pulls compressor and limiter settings, not just EQ bands; warning dialog rewritten to be honest about what actually doesn't map.]]></description>
+    <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.9.6/EQen-1.9.6.dmg" sparkle:edSignature="iEyNwwezP2ET4IeALAYvLMq7Dl+qhzvdXYmC13TE5h+CFTzovIq/4eA84cFAF+0TLF3FmS2pcZCyLfU2g2k4AA==" length="3687575" type="application/octet-stream" />
     </item>
     <item>
     <title>EQen 1.9.5</title>
