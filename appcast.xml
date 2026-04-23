@@ -6,13 +6,25 @@
     <description>Sparkle update feed for EQen.</description>
     <language>en</language>
     <item>
-      <title>EQen 1.10.2</title>
-      <pubDate>Wed, 22 Apr 2026 23:49:18 +0000</pubDate>
-      <sparkle:version>EQen.20</sparkle:version>
-      <sparkle:shortVersionString>1.10.2</sparkle:shortVersionString>
+      <title>EQen 1.10.3</title>
+      <pubDate>Thu, 23 Apr 2026 05:27:36 +0000</pubDate>
+      <sparkle:version>EQen.21</sparkle:version>
+      <sparkle:shortVersionString>1.10.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[Fix audio-killing band-count crash. The +/- band buttons used to extend frequencies up to 26 kHz, which exceeds Nyquist (24 kHz at 48 kHz sample rate) once you reached ~13 bands — biquad coefficients went NaN, vDSP fed garbage to the speakers, music stopped with a pop. Three-layer fix: (1) band counts now log-spread across 20 Hz - 20 kHz preserving per-index gain/Q/type; (2) AudioConstants.maxEQFrequency lowered to 20 kHz with documented Nyquist rationale; (3) BiquadMath defensively clamps frequency to 0.49 × sample-rate as a last-line audio-thread guard.]]></description>
-      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.10.2/EQen-1.10.2.dmg" sparkle:edSignature="q5KhmRFreVdSncX/9/wYWhTaE3/MLwYAwqewQpFVmkqaVAGthofTKfvl3qAe/erZR0N6dSckRVN7vacElPNWDQ==" length="3736566" type="application/octet-stream" />
+      <description><![CDATA[Audio fix: replace BlackHole-derived audio driver with EQen's own clean-room
+implementation. Resolves a coreaudiod scope bug that caused jerky/robotic
+playback by routing every audio frame to two output streams. Existing
+installs auto-update and pick up the new driver on next launch.]]></description>
+      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.10.3/EQen-1.10.3.dmg" sparkle:edSignature="pJYTq6Tqx8Fdi4nXNgwSat9wEf5pS8p5XjfYOQuLIXvOvitlgZTY6vmLMsw9ntXVmaqCpWb518y8/DUzM0FGCw==" length="3721145" type="application/octet-stream" />
+    </item>
+    <item>
+    <title>EQen 1.10.2</title>
+    <pubDate>Wed, 22 Apr 2026 23:49:18 +0000</pubDate>
+    <sparkle:version>EQen.20</sparkle:version>
+    <sparkle:shortVersionString>1.10.2</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[Fix audio-killing band-count crash. The +/- band buttons used to extend frequencies up to 26 kHz, which exceeds Nyquist (24 kHz at 48 kHz sample rate) once you reached ~13 bands — biquad coefficients went NaN, vDSP fed garbage to the speakers, music stopped with a pop. Three-layer fix: (1) band counts now log-spread across 20 Hz - 20 kHz preserving per-index gain/Q/type; (2) AudioConstants.maxEQFrequency lowered to 20 kHz with documented Nyquist rationale; (3) BiquadMath defensively clamps frequency to 0.49 × sample-rate as a last-line audio-thread guard.]]></description>
+    <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.10.2/EQen-1.10.2.dmg" sparkle:edSignature="q5KhmRFreVdSncX/9/wYWhTaE3/MLwYAwqewQpFVmkqaVAGthofTKfvl3qAe/erZR0N6dSckRVN7vacElPNWDQ==" length="3736566" type="application/octet-stream" />
     </item>
     <item>
     <title>EQen 1.10.1</title>
