@@ -6,16 +6,47 @@
     <description>Sparkle update feed for EQen.</description>
     <language>en</language>
     <item>
-      <title>EQen 1.10.3</title>
-      <pubDate>Thu, 23 Apr 2026 05:27:36 +0000</pubDate>
-      <sparkle:version>EQen.21</sparkle:version>
-      <sparkle:shortVersionString>1.10.3</sparkle:shortVersionString>
+      <title>EQen 1.10.4</title>
+      <pubDate>Thu, 23 Apr 2026 23:38:08 +0000</pubDate>
+      <sparkle:version>EQen.22</sparkle:version>
+      <sparkle:shortVersionString>1.10.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[Audio fix: replace BlackHole-derived audio driver with EQen's own clean-room
-implementation. Resolves a coreaudiod scope bug that caused jerky/robotic
-playback by routing every audio frame to two output streams. Existing
-installs auto-update and pick up the new driver on next launch.]]></description>
-      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.10.3/EQen-1.10.3.dmg" sparkle:edSignature="pJYTq6Tqx8Fdi4nXNgwSat9wEf5pS8p5XjfYOQuLIXvOvitlgZTY6vmLMsw9ntXVmaqCpWb518y8/DUzM0FGCw==" length="3721145" type="application/octet-stream" />
+      <description><![CDATA[EQen 1.10.4
+
+New
+- Major UI redesign: per-band jewel-tone palette (10 distinct hues
+  around the spectrum), prismatic master curve, ring-style band
+  handles. Light mode is clean jewel-on-paper; dark mode is a live
+  aurora backdrop with bloomed curve.
+- Modernised Response chart with additive band-cone overlap
+  visualisation (FabFilter-style) and a ghost spectrum baseline.
+
+Fixed
+- Driver now exposes Volume + Mute control objects so the macOS
+  Sound slider (and AirPods / keyboard volume keys) move the
+  hardware output properly when EQen is the default device.
+- First-open preset bug: bands previously showed log-spaced
+  defaults until you touched a dot. Now the selected preset loads
+  correctly on launch.
+
+Under the hood
+- Deployment target is macOS 14 Sonoma (covers all Apple Silicon
+  + Intel Macs from ~2018).
+- Observable-object forwarding cleaned up so view updates land
+  on the same frame as the state change.]]></description>
+      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.10.4/EQen-1.10.4.dmg" sparkle:edSignature="/Sj+YMD2FbJ0MJRyyrgexvorv1PmIYQi2w9/KimtBx6IRKOytNtt8+6nYIqRIoJkJ9qRtg6QV+Tj0NM4nbeKAQ==" length="3790738" type="application/octet-stream" />
+    </item>
+    <item>
+    <title>EQen 1.10.3</title>
+    <pubDate>Thu, 23 Apr 2026 05:27:36 +0000</pubDate>
+    <sparkle:version>EQen.21</sparkle:version>
+    <sparkle:shortVersionString>1.10.3</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[Audio fix: replace BlackHole-derived audio driver with EQen's own clean-room
+    implementation. Resolves a coreaudiod scope bug that caused jerky/robotic
+    playback by routing every audio frame to two output streams. Existing
+    installs auto-update and pick up the new driver on next launch.]]></description>
+    <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.10.3/EQen-1.10.3.dmg" sparkle:edSignature="pJYTq6Tqx8Fdi4nXNgwSat9wEf5pS8p5XjfYOQuLIXvOvitlgZTY6vmLMsw9ntXVmaqCpWb518y8/DUzM0FGCw==" length="3721145" type="application/octet-stream" />
     </item>
     <item>
     <title>EQen 1.10.2</title>
