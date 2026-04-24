@@ -6,27 +6,36 @@
     <description>Sparkle update feed for EQen.</description>
     <language>en</language>
     <item>
-      <title>EQen 1.10.5</title>
-      <pubDate>Fri, 24 Apr 2026 00:10:28 +0000</pubDate>
-      <sparkle:version>EQen.23</sparkle:version>
-      <sparkle:shortVersionString>1.10.5</sparkle:shortVersionString>
+      <title>EQen 1.10.6</title>
+      <pubDate>Fri, 24 Apr 2026 00:48:17 +0000</pubDate>
+      <sparkle:version>EQen.24</sparkle:version>
+      <sparkle:shortVersionString>1.10.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[EQen 1.10.5
+      <description><![CDATA[Fix app hang when installing or uninstalling the audio driver — the admin-password prompt no longer blocks the main thread.]]></description>
+      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.10.6/EQen-1.10.6.dmg" sparkle:edSignature="RVwgSsMU95A7DuNlouwdbm2q8yhbK/oWMQTFxs5Z+Y4ZSjrSn8l7VXNhM0BUfNKrqyj6lerQvYoxycDYH6HBCw==" length="12510267" type="application/octet-stream" />
+    </item>
+    <item>
+    <title>EQen 1.10.5</title>
+    <pubDate>Fri, 24 Apr 2026 00:10:28 +0000</pubDate>
+    <sparkle:version>EQen.23</sparkle:version>
+    <sparkle:shortVersionString>1.10.5</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[EQen 1.10.5
 
-New
-- Crash + hang + error reporting via Sentry (macOS 14+). Any app
-  hang of >2 sec, any uncaught crash, and targeted error paths
-  upload a stack trace + breadcrumbs so bugs get fixed faster.
-  No personally identifiable data beyond IP (for unique-install
-  counting) is collected.
+    New
+    - Crash + hang + error reporting via Sentry (macOS 14+). Any app
+    hang of >2 sec, any uncaught crash, and targeted error paths
+    upload a stack trace + breadcrumbs so bugs get fixed faster.
+    No personally identifiable data beyond IP (for unique-install
+    counting) is collected.
 
-Under the hood
-- `SentrySDK.start(...)` runs as the first thing in app init so
-  even boot-time crashes are captured.
-- Release tag `eqen@<version>+<build>` matches Sparkle's
-  sparkle:version so crash reports correlate cleanly with
-  releases.]]></description>
-      <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.10.5/EQen-1.10.5.dmg" sparkle:edSignature="FvW8My6VekmAd2oS1ZC2XlCncELvFavdirHYiKy6mLsRilXz89Bh9EAj3HIQSmtZdJCxc8194VNd1+8A5JGQCw==" length="12512284" type="application/octet-stream" />
+    Under the hood
+    - `SentrySDK.start(...)` runs as the first thing in app init so
+    even boot-time crashes are captured.
+    - Release tag `eqen@<version>+<build>` matches Sparkle's
+    sparkle:version so crash reports correlate cleanly with
+    releases.]]></description>
+    <enclosure url="https://github.com/itsisaf/eqen-releases/releases/download/v1.10.5/EQen-1.10.5.dmg" sparkle:edSignature="FvW8My6VekmAd2oS1ZC2XlCncELvFavdirHYiKy6mLsRilXz89Bh9EAj3HIQSmtZdJCxc8194VNd1+8A5JGQCw==" length="12512284" type="application/octet-stream" />
     </item>
     <item>
     <title>EQen 1.10.4</title>
